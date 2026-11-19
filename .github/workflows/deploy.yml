@@ -26,6 +26,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check project folders
+        run: |
+          pwd
+          ls -la
+
       - name: Install dependencies
         working-directory: the-dominators---future-destiny
         run: npm install
