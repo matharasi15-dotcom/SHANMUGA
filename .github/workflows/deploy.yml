@@ -42,7 +42,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: the-dominators---future-destiny/dist
+          working-directory: the-dominators---future-destiny
 
   deploy:
     environment:
