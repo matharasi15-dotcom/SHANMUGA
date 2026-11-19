@@ -19,7 +19,7 @@ import { ZodiacCodex } from './components/ZodiacCodex';
 import { GroupDestiny } from './components/GroupDestiny';
 import { ZodiacGlyph } from './components/ZodiacGlyph';
 
-const HERO_IMAGE_URL = '/assets/aistudio/SHANMU_7dcd2067.jpeg';
+const HERO_IMAGE_URL = '${import.meta.env.BASE_URL}SHANMU.jpeg';
 const LANG_STORAGE_KEY = 'shanmuga_horoscope_lang';
 
 type FormErrorKey = '' | 'name' | 'dob' | 'futureDob';
