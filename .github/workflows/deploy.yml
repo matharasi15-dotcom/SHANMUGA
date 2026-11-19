@@ -32,17 +32,17 @@ jobs:
           ls -la
 
       - name: Install dependencies
-        working-directory: the-dominators---future-destiny
+        working-directory: the-dominators-–-future-destiny
         run: npm install
 
       - name: Build website
-        working-directory: the-dominators---future-destiny
+        working-directory: the-dominators-–-future-destiny
         run: npm run build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          working-directory: the-dominators---future-destiny
+          working-directory: the-dominators-–-future-destiny
 
   deploy:
     environment:
